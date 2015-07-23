@@ -1,0 +1,28 @@
+{
+  "name": "node-cal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katyjustiss/node-cal.git"
+  },
+  "author": "Katy Justiss <katy.justiss@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/katyjustiss/node-cal/issues"
+  },
+  "homepage": "https://github.com/katyjustiss/node-cal#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "codeclimate-test-reporter": "^0.1.0",
+    "istanbul": "^0.3.17",
+    "mocha": "^2.2.5"
+  }
+}
