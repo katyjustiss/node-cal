@@ -13,6 +13,5 @@ describe('Input', function() {
       checkingLength(testdate).should.eql([1, '2015'])
     })
 
-
   });
-}); //end of Month test set
+}); //end of test set

@@ -1,21 +1,24 @@
 var should = require("chai").should();
 var path = require('path');
-var month = require(path.join(process.cwd() + "/lib/zellers"));
+var zellersPath = require(path.join(process.cwd() + "/lib/zellers"));
 
-// describe('zellers', function() {
-//   describe('object', function() {
-//     it('should return the correct day of the week', function() {
-//       var Sun = 0;
-//       var Mon = 1;
-//       var Wednesday = 4;
-//       var Saturday = 6;
-//       jan.should.be.an('object');
-//       jan.name.should.equal('January');
-//       may.name.should.equal('May');
-//       oct.name.should.equal('October');
-//       dec.name.should.equal('December');
-//     })
+describe('Input', function() {
+  // describe('#Zellers()', function() {
+  //   it('should check return value', function() {
+  //     var testNumber = [1, '2015'];
+  //     Zellers(testNumber).should.equal(4)
+  //   });
+  // });
+  describe('#adjustDay()', function() {
+    it('should change the day of the week', function() {
+      var dayOfWeek = 0;
+      zellersPath.adjustDay(dayOfWeek).should.eql(6)
+    });
+    it('should change the day of the week', function() {
+      var dayOfWeek = 4;
+      zellersPath.adjustDay(dayOfWeek).should.eql(3)
+    });
 
-//   });
-// }); //end of test set
+  });
+}); //end of test set
 
