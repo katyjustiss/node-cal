@@ -10,13 +10,13 @@ var newDay = require('./lib/day');
 //Getting the day of the week.
 // console.log(formatDays);
 
-  var input = process.argv.slice(2);
+  // var input = process.argv.slice(2);
 
-  //assigning the returned array to accessible variable.
-  var dates = checkingLength(input);
+  // //assigning the returned array to accessible variable.
+  // var dates = checkingLength(input);
 
-  var zeller = Zellers(dates) //returning day of the week. Sunday = 0
-  console.log(zeller)
+  // var zeller = Zellers(dates) //returning day of the week. Sunday = 0
+  // console.log(zeller)
 
-  var format = formatDays(dates)
-  console.log(format)
+  var format = formatDays();
+  // console.log(format)

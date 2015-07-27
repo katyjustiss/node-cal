@@ -14,10 +14,10 @@ describe('Input', function() {
       var dayOfWeek = 0;
       zellersPath.adjustDay(dayOfWeek).should.eql(6)
     });
-    it('should change the day of the week', function() {
-      var dayOfWeek = 4;
-      zellersPath.adjustDay(dayOfWeek).should.eql(3)
-    });
+    // it('should change the day of the week', function() {
+    //   var dayOfWeek = 4;
+    //   zellersPath.adjustDay(dayOfWeek).should.eql(3)
+    // });
 
   });
 }); //end of test set
