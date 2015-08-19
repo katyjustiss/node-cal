@@ -7,6 +7,7 @@ var error = require('./lib/error');
 var zeller = require('./lib/zellers');
 
 
+//getting entered dates
 var input = process.argv.slice(2);
 
 var argMonth;
