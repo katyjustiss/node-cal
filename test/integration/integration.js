@@ -9,7 +9,6 @@ describe('CLI', function() {
       testCal('2 2012');
     });
     it('should handle non-leap years', function() {
-      // Non-leap feb. 02 2014
       testCal('2 2014')
     });
   });
